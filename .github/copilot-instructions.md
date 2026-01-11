@@ -134,3 +134,5 @@ dotnet test
 - 外鍵刪除行為預設為 `DeleteBehavior.Restrict` 防止級聯刪除
 - 所有查詢應包含適當的 `.Include()` 以避免 N+1 查詢問題
 - Session 與 Cookie 過期時間設為 365 天（永久會話）
+
+**ATTENTION**: MUST to read #file:../.specify/memory/constitution.md for irresistible guidelines on how to assist with this project.
